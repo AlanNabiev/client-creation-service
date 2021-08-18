@@ -57,7 +57,7 @@ export default {
         placeholder.value = props.name;
       }
       if (props.validationErrors) {
-        inputClasses.value = "input__container__errors";
+        inputClasses.value = "input__container__hasErrors";
       }
     });
 
@@ -101,7 +101,7 @@ export default {
       color: skyblue;
       box-shadow: 0 2px 4px 0 skyblue;
     }
-    &__errors {
+    &__hasErrors {
       color: red;
       box-shadow: 0 2px 4px 0 red;
     }
